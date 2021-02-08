@@ -2,8 +2,8 @@ DJing
 
 (pre-work)
 Load all tracks that might be played into library
-    Set cue locations at transitonary parts of track
     Make sure BPMs and phasing of beat grids and measures are correctly lined up on all tracks
+    Set cue locations at transitonary parts of track
 
 (LIVE SET)
 Load Track A to Deck 1
@@ -14,7 +14,7 @@ Load Track B to Deck 2
   Synchronize Track A and B's BPM's, B to A, so A is Master BPM (to avoid sudden audbile shifts in tempo of whichever track is playing on Master Channel)
 Play Track B to cue channel, not master
     check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolved with line 19) continue to next step, 
-    if not go back to line 8 (Find Track B..)
+    if not go back to line 11 (Find Track B..)
 Fade Track B on Deck 2 into master
     If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
 Fade out Track A 
