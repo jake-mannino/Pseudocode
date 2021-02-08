@@ -8,7 +8,7 @@ Load all tracks that might be played into library
 (LIVE SET)
 Load Track A to Deck 1
 Play Track A Deck 1 to master
-  Find track B with BPM in close range of track A's BPM and matching Key signatures
+  Find Track B with BPM in close range of track A's BPM and matching Key signatures
 Load Track B to Deck 2
   Find outro cue of Track A that best algins with intro cue of Track B to trigger Track B on
   Synchronize Track A and B's BPM's, B to A, so A is Master BPM (to avoid sudden audbile shifts in tempo of whichever track is playing on Master Channel)
