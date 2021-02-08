@@ -1,16 +1,25 @@
-DJing
-load all tracks that might be played
-    set cue locations at transitonary parts of track
-    make sure BPM and phasing of beat grid and measure is lined up
-load track A
-Play Track A to master
-  find track B with bpm in close range of track A BPM and matching Keys
- load track B,
-  pick outro cue of Track A with intro cue of Track B to trigger Track B on
-  play track B to cue channel, not master
-  Fade in Track B to master
-    if low-end frequency conflicts exist, cut out either XOR Track A or Track B's lowend once playing both to Master
-  Fade out Track A, and if Track B's low-end was cut, fade in Track B's lowend before next major cue in track B (the main drop)
-  Repeat with unplayed tracks untill all tracks in library are played or time limit is reached
+DJing 
+
+(pre-work)
+Load all tracks that might be played into library
+    Set cue locations at transitonary parts of track
+    Make sure BPMs and phasing of beat grids and measures are correctly lined up on all tracks
+
+(LIVE SET)
+Load Track A to Deck 1
+Play Track A Deck 1 to master
+  Find track B with BPM in close range of track A's BPM and matching Key signatures
+Load Track B to Deck 2
+  Find outro cue of Track A that best algins with intro cue of Track B to trigger Track B on
+  Synchronize Track A and B's BPM's, B to A, so A is Master BPM (to avoid sudden audbile shifts in tempo of whichever track is playing on Master Channel)
+Play Track B to cue channel, not master
+    check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolve with line 19) continue to next step, 
+    if not go back to line 8 (Find Track B..)
+Fade Track B on Deck 2 into master
+    If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
+Fade out Track A, and 
+    If Track B's low-end was cut, fade in Track B's lowend before next major cue in track B (the main drop)
+
+Repeat with all unplayed tracks, until all tracks in library are played or established time limit is reached for DJ set
     
 
