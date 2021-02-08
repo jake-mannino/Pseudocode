@@ -13,7 +13,7 @@ Load Track B to Deck 2
   Find outro cue of Track A that best algins with intro cue of Track B to trigger Track B on
   Synchronize Track A and B's BPM's, B to A, so A is Master BPM (to avoid sudden audbile shifts in tempo of whichever track is playing on Master Channel)
 Play Track B to cue channel, not master
-    check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolve with line 19) continue to next step, 
+    check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolved with line 19) continue to next step, 
     if not go back to line 8 (Find Track B..)
 Fade Track B on Deck 2 into master
     If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
