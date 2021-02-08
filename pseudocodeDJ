@@ -1,11 +1,13 @@
 DJing 
 
-(pre-work)
+(pseudopseudocode)
+
+(initial conditioning)
 Load all tracks that might be played into library
     Make sure BPMs and phasing of beat grids and measures are correctly lined up on all tracks
     Set cue locations at transitonary parts of tracks
 
-(LIVE SET)
+(Live Set)
 Load Track A to Deck 1
 Play Track A Deck 1 to master
   Find Track B with BPM in close range of (or equal to) track A's BPM and matching Key signatures
@@ -14,7 +16,7 @@ Load Track B to Deck 2
   Synchronize Track A and B's BPM's, B to A, so A is Master BPM (to avoid sudden audbile shifts in tempo of whichever track is playing on Master Channel)
 Play Track B to cue channel, not master
     check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolved with line 19) continue to next step, 
-    if not go back to line 11 (Find Track B..)
+    if not go back to line 11 after (Find Track B..)
 Fade Track B on Deck 2 into master
     If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
 Fade out Track A 
@@ -22,4 +24,56 @@ Fade out Track A
 
 Repeat with all unplayed tracks, until all tracks in library are played or established time limit is reached for DJ set
     
-
+Objects:
+    Track library
+        Displays of BPMS and Cue points
+    Cue points (locations set in track metadata)
+        when triggered play track from that locations
+           (1-8)
+        intro cues
+        outro cues
+    Cue buttons to trigger cue points
+    Tracks
+    Decks
+    Master channel
+    Cue channel (to headphones)
+    Syncronize bpms of tracks loaded
+        (to master deck)
+    levels, gains knobs, crossfaders (for fade in / out)
+        low-end freq eq knobs for each deck
+    
+  
+    
+Functions:
+    
+    Find best Track
+    Find best Intro cue
+    Find best outro cue
+         of master deck (being played to master) or Deck 2 (assuming not the master)
+    Find drop cue
+    load Track (x) to deck (X)
+    Synchronize BPMs of tracks loaded on decks (X to master Deck)
+    Play track/deck from selected Deck 2 cue to cue channel
+    
+    Play track/deck from selected cue to master channel
+ to master (crossfade or level or gains)
+     
+    Fade track/deck signal into cue channel and or (OR) master
+    fade track/deck signal out cue channel and or (OR) master
+    
+    fade low frequencies of Track (X) out of master and cue
+    Fade low frequencies of Track (X) into master and cue
+        
+    
+    identify if tracks mix check for dissonance
+         if, else for loop back 
+         if else for resolving conflicting low-end freqs
+    loops until all tracks have been played or time limit reached
+         
+        
+    
+    
+    
+    
+    
+    
