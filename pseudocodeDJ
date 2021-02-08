@@ -19,7 +19,7 @@ Play Track B to cue channel, not master
     if not go back to line 13 after (Find Track B..)
 Fade Track B on Deck 2 into master
     If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
-Fade out Track A 
+Fade out Track A from master
     If Track B's low-end was cut, fade in Track B's lowend before next major cue in track B (the main drop)
 
 Repeat with all unplayed tracks, until all tracks in library are played or established time limit is reached for DJ set
