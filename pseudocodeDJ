@@ -69,6 +69,7 @@ Functions:
          if, else for loop back 
          if else for resolving conflicting low-end freqs
     loops until all tracks have been played or time limit reached
+        mark track as played after playing it
          
         
     
