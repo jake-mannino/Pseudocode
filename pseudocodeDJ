@@ -29,16 +29,25 @@ Objects:
         Displays of BPMS and Cue points
     Cue points (locations set in track metadata)
         when triggered play track from that locations
-           (1-8)
+           1-8 for all tracks
         intro cues
         outro cues
     Cue buttons to trigger cue points
+           1-8 for each deck
     Tracks
+        played
+        unplayed
+        bpm
+        cue points
+        key signatures
     Decks
+        1
+        2
     Master channel
     Cue channel (to headphones)
     Syncronize bpms of tracks loaded
         (to master deck)
+          sync button on each deck that syncs it to track bpm loaded on other deck
     levels, gains knobs, crossfaders (for fade in / out)
         low-end freq eq knobs for each deck
     
