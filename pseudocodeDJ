@@ -1,0 +1,16 @@
+DJing
+load all tracks that might be played
+    set cue locations at transitonary parts of track
+    make sure BPM and phasing of beat grid and measure is lined up
+load track A
+Play Track A to master
+  find track B with bpm in close range of track A BPM and matching Keys
+ load track B,
+  pick outro cue of Track A with intro cue of Track B to trigger Track B on
+  play track B to cue channel, not master
+  Fade in Track B to master
+    if low-end frequency conflicts exist, cut out either XOR Track A or Track B's lowend once playing both to Master
+  Fade out Track A, and if Track B's low-end was cut, fade in Track B's lowend before next major cue in track B (the main drop)
+  Repeat with unplayed tracks untill all tracks in library are played or time limit is reached
+    
+
