@@ -18,7 +18,7 @@ Play Track B to cue channel, not master
     check for any dissonance, conflicting rhythms or frequencies, if there are minimal to none (that can't resolved with line 21) continue to next step, 
     if not go back to line 13 after (Find Track B..)
 Fade Track B on Deck 2 into master
-    If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend once playing both to Master
+    If low-end frequency conflicts exist, cut out either (XOR) Track A or Track B's lowend before playing both to Master
 Fade out Track A from master
     If Track B's low-end was cut, fade in Track B's lowend before next major cue in track B (the main drop)
 
