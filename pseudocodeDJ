@@ -65,7 +65,6 @@ Functions:
     Play track/deck from selected Deck 2 cue to cue channel
     
     Play track/deck from selected cue to master channel
- to master (crossfade or level or gains)
      
     Fade track/deck signal into cue channel and or (OR) master
     fade track/deck signal out cue channel and or (OR) master
