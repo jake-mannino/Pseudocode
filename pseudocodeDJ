@@ -73,7 +73,7 @@ Functions:
     Fade low frequencies of Track (X) into master and cue
         
     
-    identify if tracks mix check for dissonance
+    Identify if tracks mix check for dissonance
          if, else for loop back 
          if else for resolving conflicting low-end freqs
     loops until all tracks have been played or time limit reached
