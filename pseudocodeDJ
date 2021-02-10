@@ -53,8 +53,7 @@ Objects:
     
   
     
-Functions:
-    
+Functions (rougher outline redid this further below):
     Find best Track
     Find best Intro cue
     Find best outro cue
@@ -81,9 +80,7 @@ Functions:
        
        mark track as played after playing it
          
-     **//Rewrote things here more simply and in-depth//**
-         
-        
+  **//Rewrote things below here more simply and in-depth, flushed out outline above//**     
     Objects:
         Track Libary
             Played tracks
@@ -118,7 +115,7 @@ Functions:
             Key signatures (all 15 minor scales, 1-15)
             
        
-       Functions
+    Functions:
         syncDeck1
             (deck1BPM-deck2BPM=X, IF X negative, add ++ 1 to deck1BPM until deck1BPM=deck2BPM,
                 ELSE IF X postive, subtract -- 1 to deck1BPM until deck1BPM=deck1BPM)
@@ -127,11 +124,12 @@ Functions:
             
           fadeIn
             Decrease volume
-          
+                 Applied to either MASTER or CUE channel
+                 or applied to LOWEND of MASTER and CUE
           fadeOut
             Increase volume
                 Applied to either MASTER or CUE channel
-                Applied to LOWEND of MASTER and CUE
+                 or applied to LOWEND of MASTER and CUE
                 
            markTrackAsPlayed
                 Upon loading track to either deck  
