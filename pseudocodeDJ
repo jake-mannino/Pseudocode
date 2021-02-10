@@ -2,7 +2,7 @@ DJing
 
 (pseudopseudocode)
 
-(initial conditioning)
+(initial conditions)
 Load all tracks that might be played into library
     Make sure BPMs and phasing of beat grids and measures are correctly lined up on all tracks
     Set cue locations at transitonary parts of tracks
@@ -81,8 +81,7 @@ Functions:
        
        mark track as played after playing it
          
-         
-         
+     **//Rewrote things here more simply and in-depth//**
          
         
     Objects:
@@ -119,9 +118,49 @@ Functions:
             Key signatures (all 15 minor scales, 1-15)
             
        
+       Functions
+        syncDeck1
+            (deck1BPM-deck2BPM=X, IF X negative, add ++ 1 to deck1BPM until deck1BPM=deck2BPM,
+                ELSE IF X postive, subtract -- 1 to deck1BPM until deck1BPM=deck1BPM)
+        syncDeck2
+            (same as above but with the decks switched)
             
-    
-    
-    
-    
-    
+          fadeIn
+            Decrease volume
+          
+          fadeOut
+            Increase volume
+                Applied to either MASTER or CUE channel
+                Applied to LOWEND of MASTER and CUE
+                
+           markTrackAsPlayed
+                Upon loading track to either deck  
+                
+           unplayedTracks = playedTracks - totalTracks
+            
+           loadTrackDeck1
+           
+           loadTrackDeck2
+     
+           triggerCue1
+           triggerCue2
+           triggerCue3
+           triggerCue4
+           triggerCue5
+           triggerCue6
+           triggerCue7
+           triggerCue8
+                deck1
+                deck2
+           
+        
+        introCueToOutroCue
+        
+           triggerCue1Deck2 AT cue8Deck1
+           WHEN deck1 ENDS
+           LOAD unplayedTrack to deck1
+           triggerCueDeck1 AT cue8Deck2
+           LOAD unplayedTrack to deck2
+           
+          Loop until playedTracks=0 
+          
