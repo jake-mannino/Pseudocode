@@ -87,9 +87,10 @@ Functions (rougher outline redid this further below):
         Track Libary
             Played tracks
             Unplayed Tracks
-        
-        Load Track to Deck 1 button
-        Load Track to Deck 2 button
+            select track
+            
+            Load Track to Deck 1 button
+            Load Track to Deck 2 button
         
        
         
