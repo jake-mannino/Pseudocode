@@ -107,6 +107,12 @@ Functions (rougher outline redid this further below):
                  Cue 8 (Outro)
             Key signatures (all 15 minor scales, 1-15)
             
+            Load (also replace current track on) to Decks [1,2]
+            Mark as played
+            totaltracks
+            unplayed tracks
+            Current time
+            
         Decks [1,2]
         
             Channels = [Master, Cue]
@@ -116,13 +122,15 @@ Functions (rougher outline redid this further below):
             
                 Low End Knobs [LowDeck 1, Low Deck 2]
                     Output to both Master and Cue
-        
+                Current Time of track playing
+                    (to sync cues on)
                 Fade in 
                 Fade out
                 
                 Sync button Deck 1
-                
                 Sync button Deck 2
+                
+                
        
           
             
