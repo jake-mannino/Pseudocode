@@ -125,8 +125,11 @@ Functions (rougher outline redid this further below):
             
                 Low End Knobs [LowDeck 1, Low Deck 2]
                     Output to both Master and Cue
+                        Volume
+                
                 Current Time of track playing
                     (to sync cues on)
+                
                 Fade in 
                 Fade out
                 
