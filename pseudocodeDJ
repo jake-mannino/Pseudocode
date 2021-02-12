@@ -99,7 +99,7 @@ Functions (rougher outline redid this further below):
        Tracks [A,B]
             BPM (beats per minute, x value)
             Cues = [1, 2, 3, 4, 5, 6, 7, 8]
-                    (each attached to time location on tracks loaded to either deck)
+                    (each attached to time location on tracks loaded to either deck,INIT from corresponding time)
                         Trigger to
                             Deck1
                             Deck2
