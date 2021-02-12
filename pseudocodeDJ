@@ -93,30 +93,37 @@ Functions (rougher outline redid this further below):
         
        
         
-        Decks [1,2]
         
-            Channels [Master, Cue]
-        
-            Master Channel
-            Cue Channel (Headphones)
-        
-                Low End Knobs [LowDeck 1, Low Deck 2]
-                    Output to both Master and Cue
                 
        Tracks [A,B]
             BPM (beats per minute, x value)
             Cues = [1, 2, 3, 4, 5, 6, 7, 8]
                     (each attached to time location on tracks loaded to either deck)
+                        Trigger to
+                            Deck1
+                            Deck2
                  Cue 1 (Intro)
                  Cue 2 (Drop)
                  Cue 8 (Outro)
             Key signatures (all 15 minor scales, 1-15)
+            
+        Decks [1,2]
         
+            Channels = [Master, Cue]
         
-        Sync button Deck 1
-        Sync button Deck 2
+                Master Channel
+                Cue Channel (Headphones)
+            
+                Low End Knobs [LowDeck 1, Low Deck 2]
+                    Output to both Master and Cue
+        
+                Fade in 
+                Fade out
+                
+                Sync button Deck 1
+                
+                Sync button Deck 2
        
-       Track Variables
           
             
        
