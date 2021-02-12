@@ -5,7 +5,7 @@ DJing
 (initial conditions)
 Load all tracks that might be played into library
     Make sure BPMs and phasing of beat grids and measures are correctly lined up on all tracks
-    Set cue locations at transitonary parts of tracks
+    Set cue locations at transitionary parts of tracks
 
 (Live Set)
 Load Track A to Deck 1
@@ -80,7 +80,9 @@ Functions (rougher outline redid this further below):
        
        mark track as played after playing it
          
-  **//Rewrote things below here more simply and in-depth, flushed out outline above//**     
+  **//Rewrote things below here more simply and in-depth, flushed out outline above//**    
+  
+  Objective: Transiton between Tracks smoothly.
     Objects:
         Track Libary
             Played tracks
@@ -89,30 +91,33 @@ Functions (rougher outline redid this further below):
         Load Track to Deck 1 button
         Load Track to Deck 2 button
         
-        Track A
-        Track B
+       
         
-        Deck A
-        Deck B
+        Decks [1,2]
         
-        Master Channel
-        Cue Channel (Headphones)
+            Channels [Master, Cue]
         
-        Low End Knob Deck A
-        Low End Know Deck B
+            Master Channel
+            Cue Channel (Headphones)
         
-        Cue (1, 2, 3, 4, 5, 6, 7, 8)
-        Cue 1 (Intro)
-        Cue 2 (Drop)
-        Cue 8 (Outro)
+                Low End Knobs [LowDeck 1, Low Deck 2]
+                    Output to both Master and Cue
+                
+       Tracks [A,B]
+            BPM (beats per minute, x value)
+            Cues = [1, 2, 3, 4, 5, 6, 7, 8]
+                    (each attached to time location on tracks loaded to either deck)
+                 Cue 1 (Intro)
+                 Cue 2 (Drop)
+                 Cue 8 (Outro)
+            Key signatures (all 15 minor scales, 1-15)
+        
         
         Sync button Deck 1
         Sync button Deck 2
        
        Track Variables
-            BPM (beats per minute, x value)
-            Cue Point locations (1-8)
-            Key signatures (all 15 minor scales, 1-15)
+          
             
        
     Functions:
@@ -161,4 +166,9 @@ Functions (rougher outline redid this further below):
            LOAD unplayedTrack to deck2
            
           Loop until playedTracks=0 
+          
+          
+          
+       
+          
           
