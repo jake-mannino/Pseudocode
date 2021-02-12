@@ -119,7 +119,9 @@ Functions (rougher outline redid this further below):
             Channels = [Master, Cue]
         
                 Master Channel
+                    volume
                 Cue Channel (Headphones)
+                    volume
             
                 Low End Knobs [LowDeck 1, Low Deck 2]
                     Output to both Master and Cue
