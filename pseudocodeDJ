@@ -179,10 +179,11 @@ Functions (rougher outline redid this further below):
            
         
         introCueToOutroCue
-        
+            syncDeck2
            triggerCue1Deck2 AT cue8Deck1
            WHEN deck1 ENDS
            LOAD unplayedTrack to deck1
+            syncDeck1
            triggerCueDeck1 AT cue8Deck2
            LOAD unplayedTrack to deck2
            
