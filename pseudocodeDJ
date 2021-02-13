@@ -149,11 +149,11 @@ Functions (rougher outline redid this further below):
             (same as above but with the decks switched)
             
           fadeIn
-            Decrease volume over specific time frame (10 secs)
+            Increase volume over specific timeframe (10 secs) until volume=100 
                  Applied to either MASTER or CUE channel
                  or applied to LOWEND of MASTER and CUE
           fadeOut
-            Increase volume over specific time frame (10 secs)
+            Decrease volume over specific timeframe (10 secs) until Voulme=0 
                 Applied to either MASTER or CUE channel
                  or applied to LOWEND of MASTER and CUE
                 
