@@ -153,7 +153,7 @@ Functions (rougher outline redid this further below):
                  Applied to either MASTER or CUE channel
                  or applied to LOWEND of MASTER and CUE
           fadeOut
-            Decrease volume over specific timeframe (10 secs) until Voulme=0 
+            Decrease volume over specific timeframe (10 secs) until volume=0 
                 Applied to either MASTER or CUE channel
                  or applied to LOWEND of MASTER and CUE
                 
