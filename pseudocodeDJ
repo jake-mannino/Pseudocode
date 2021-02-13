@@ -144,7 +144,7 @@ Functions (rougher outline redid this further below):
     Functions:
         syncDeck1
             (deck1BPM-deck2BPM=X, IF X negative, add ++ 1 to deck1BPM until deck1BPM=deck2BPM,
-                ELSE IF X postive, subtract -- 1 to deck1BPM until deck1BPM=deck1BPM)
+                ELSE IF X postive, subtract -- 1 to deck1BPM until deck1BPM=deck2BPM)
         syncDeck2
             (same as above but with the decks switched)
             
