@@ -178,14 +178,15 @@ Functions (rougher outline redid this further below):
                 deck2
            
         
-        introCueToOutroCue
+        introCueToOutroCue (after loading Track A to deck1 and playing Deck1, and loading Track B to Deck2)
             syncDeck2
-           triggerCue1Deck2 AT cue8Deck1
+            triggerCue1Deck2 AT cue8Deck1
            WHEN deck1 ENDS
-           LOAD unplayedTrack to deck1
+            LOAD unplayedTrack to deck1
             syncDeck1
-           triggerCueDeck1 AT cue8Deck2
-           LOAD unplayedTrack to deck2
+            triggerCueDeck1 AT cue8Deck2
+           WHEN deck2 ENDS
+            LOAD unplayedTrack to deck2
            
           Loop until playedTracks=0 
           
